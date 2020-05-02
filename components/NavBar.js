@@ -9,10 +9,6 @@ export default function NavBar(props) {
     triangleUpProjects: "#E7E2DC",
   });
   useEffect(() => {
-    const node = document.createElement("h1");
-    node.appendChild(document.createTextNode("John is a poop"));
-    window.navbar.appendChild(node);
-
     document.addEventListener("scroll", () => {
       const backgroundColor = window.scrollY < 70 ? "" : "white";
       const aboutTextColor = window.scrollY < 70 ? "#8A8687" : "#C4C4C4";

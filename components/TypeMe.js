@@ -31,7 +31,7 @@ export default class TypistExample extends React.Component {
           `
           .intro-text {
             color: #8A8687;
-            font-size: 1.8em;
+            font-size: 1.5em;
             line-height: 2em;
              text-alight: left;
           }

@@ -10,30 +10,33 @@ export default function AboutMe() {
     <>
       <div className="about">
         <div className="row middle-md">
-          <div className="col-md-6">
-            <img src="/images/me.svg" className="profile-pic"></img>
-          </div>
-          <div className="col-md-6">
+          <div className="col-md-4">
             <div className="intro">
               <TypeMe />
-              <a href="/Nguyen_Dara_resume.pdf"><img className="view-resume-btn" src="/images/view-resume-btn.svg" /></a>
             </div>
           </div>
+          <div className="col-md-4"></div>
+          <div className="col-md-4">
+            <img src="/images/me.svg" className="profile-pic"></img>
+          </div>
+          <a href="/Nguyen_Dara_resume.pdf"><img className="view-resume-btn" src="/images/view-resume-btn.svg" /></a>
+
         </div>
       </div>
       <style jsx>{`
+      .row {
+        text-align: center;
+      }
         .about {
           width: 97vw;
           height: 100vh;
-          justify: center;
-          align-content: center;
-          text-align: center;
           min-width: 0;
         }
         .profile-pic {
-          // margin-left: 40%;
+          position: relative;
+          top: 50%;
           width: 50%;
-          margin-top: 8em;
+          height: 50%;
         }
         .view-resume-btn {
           position: absolute;

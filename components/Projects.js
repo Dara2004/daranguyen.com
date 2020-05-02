@@ -6,7 +6,7 @@ export default function Projects(props) {
     <>
       <div className="bgimg-1">
         <div className="caption">
-          <span className="border" style={{ backgroundColor: "black", fontSize: "25px", color: "#f7f7f7" }}>Accounting App</span>
+          <span className="border" style={{ backgroundColor: "#BFA884", fontSize: "25px", color: "#f7f7f7" }}>Accounting App</span>
         </div>
       </div>
 
@@ -21,7 +21,7 @@ export default function Projects(props) {
 
       <div className="bgimg-2">
         <div className="caption">
-          <span className="border" style={{ backgroundColor: "black", fontSize: "25px", color: "#f7f7f7" }}>UBC Campus Explorer</span>
+          <span className="border" style={{ backgroundColor: "#BFA884", fontSize: "25px", color: "#f7f7f7" }}>UBC Campus Explorer</span>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ export default function Projects(props) {
 
       <div className="bgimg-3">
         <div className="caption">
-          <span className="border" style={{ backgroundColor: "black", fontSize: "25px", color: "#f7f7f7" }}>Housing Mapper</span>
+          <span className="border" style={{ backgroundColor: "#BFA884", fontSize: "25px", color: "#f7f7f7" }}>Housing Mapper</span>
         </div>
       </div>
 
@@ -49,13 +49,13 @@ export default function Projects(props) {
 
       <div className="bgimg-4">
         <div className="caption">
-          <span className="border" style={{ backgroundColor: "black", fontSize: "25px", color: "#f7f7f7" }}>Other projects</span>
+          <span className="border" style={{ backgroundColor: "#BFA884", fontSize: "25px", color: "#f7f7f7" }}>Other projects</span>
         </div>
       </div>
 
       <div style={{ position: "relative" }}>
         <div style={{ color: "#ddd", backgroundColor: "#282E34", textAlign: "center", padding: "50px 80px", textAlign: "justify" }}>
-          <p>Projects: Simon Said 🔗, Tic Tac Toe 🔗, Pomodoro Timer 🔗, Random Quote Machine 🔗</p>
+          <p>Projects: Pomodoro Timer 🔗, Random Quote Machine 🔗, Simon Said 🔗, Tic Tac Toe 🔗</p>
           <p>Technologies: JavaScript, HTML, CSS</p>
         </div>
       </div>
