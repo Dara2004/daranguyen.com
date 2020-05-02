@@ -20,15 +20,21 @@ export default function Home() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" ></link>
       </Head>
       <div className="container">
-        <NavBar></NavBar>
-        <AboutMe></AboutMe>
-        <Projects></Projects>
+        <div id="navbar">
+
+          <NavBar></NavBar>
+        </div>
+
+        <div id="about">
+          <AboutMe></AboutMe></div>
+        <div id="projects"><Projects></Projects></div>
         <Footer></Footer>
         <style jsx>{`
         
         .container {
           background-color: #E7E2DC;
           margin: 15px;
+          min-width: 97.4vw;
           min-height: 100vh;
         }
         @media (max-width: 600px) {

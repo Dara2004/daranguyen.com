@@ -9,6 +9,10 @@ export default function NavBar(props) {
     triangleUpProjects: "#E7E2DC",
   });
   useEffect(() => {
+    const node = document.createElement("h1");
+    node.appendChild(document.createTextNode("John is a poop"));
+    window.navbar.appendChild(node);
+
     document.addEventListener("scroll", () => {
       const backgroundColor = window.scrollY < 70 ? "" : "white";
       const aboutTextColor = window.scrollY < 70 ? "#8A8687" : "#C4C4C4";
@@ -38,7 +42,7 @@ export default function NavBar(props) {
       <div className="nav-bar">
         <div className="row">
           <div className="col-md-4">
-            <a href="#about"><img src="/images/logo.png" className="logo" /></a>
+            <a href="#about" style={{ marginRight: "30px" }}><img src="/images/logo.png" className="logo" /></a>
           </div>
 
           <div className="col-md-8">

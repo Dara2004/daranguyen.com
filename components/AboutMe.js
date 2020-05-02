@@ -23,8 +23,8 @@ export default function AboutMe() {
       </div>
       <style jsx>{`
         .about {
-          width: 100%;
-          height: 40em;
+          width: 97vw;
+          height: 100vh;
           justify: center;
           align-content: center;
           text-align: center;
