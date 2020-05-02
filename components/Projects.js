@@ -40,7 +40,7 @@ export default function Projects(props) {
           </p>
           <p>
             Technologies: React, Node.js, PostgreSQL, GraphQL, NextJS,
-            TypeScript (JavaScript)
+            TypeScript
           </p>
         </div>
       </div>
@@ -153,7 +153,7 @@ export default function Projects(props) {
         {`
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
-  opacity: 0.8;
+  opacity: 0.6;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
