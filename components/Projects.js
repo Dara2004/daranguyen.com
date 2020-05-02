@@ -112,7 +112,7 @@ export default function Projects(props) {
             in XML format into internal objects. Users can select properties
             based on a list of criteria and find their locations on a map.
           </p>
-          <p>Technologies: Java</p>
+          <p>Technologies: Java, Swing</p>
         </div>
       </div>
 
@@ -142,8 +142,8 @@ export default function Projects(props) {
           }}
         >
           <p>
-            Projects: Pomodoro Timer 🔗, Random Quote Machine 🔗, Simon Said 🔗,
-            Tic Tac Toe 🔗
+            Projects: <a href="/other-projects/random-quote-machine/index.html" className="project-link">Random Quote Machine 🔗</a>, <a href="/other-projects/pomodoro/index.html" className="project-link">Pomodoro Timer 🔗</a>, <a href="/other-projects/simon-game/index.html" className="project-link">Simon Said 🔗</a>,
+            <a href="/other-projects/tic-tac-toe/index.html" className="project-link">Tic Tac Toe 🔗</a>
           </p>
           <p>Technologies: JavaScript, HTML, CSS</p>
         </div>
@@ -202,6 +202,10 @@ h3 {
   color: #111;
 }
 
+.project-link {
+  text-decoration: none;
+  color: white;
+}
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {

@@ -5,13 +5,13 @@ export default function Footer() {
     <>
       <div className="footer">
         <span>
-          <img src="/images/email-btn.png" />
+          <a href="mailto: duongnt1204@gmail.com"><img src="/images/email-btn.png" /></a>
         </span>
         <span>
-          <img src="/images/github-btn.png" />
+          <a href="https://github.com/Dara2004"><img src="/images/github-btn.png" /></a>
         </span>
         <span>
-          <img src="/images/linkedin-btn.png" />
+          <a href="https://linkedin.com/in/daranguyen"><img src="/images/linkedin-btn.png" /></a>
         </span>
         <p>Created by Dara Nguyen</p>
       </div>
@@ -19,13 +19,13 @@ export default function Footer() {
         {" "}
         {`
             .footer {
-                height: 8em;
+                height: 8.5em;
                 background-color: black;       
                 text-align: center; 
                 align-
             }
             .footer img {
-                margin: 1em 0.5em 0em 0.5em;
+                margin: 2em 0.5em 0em 0.5em;
                 display: inline-block;
                 width: 2.5em;
             }
