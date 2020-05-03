@@ -142,8 +142,8 @@ export default function Projects(props) {
           }}
         >
           <p>
-            Projects: <a href="/other-projects/random-quote-machine/random-quote-machine.html" className="project-link">Random Quote Machine 🔗</a>, <a href="/other-projects/pomodoro/index.html" className="project-link">Pomodoro Timer 🔗</a>, <a href="/other-projects/simon-game/index.html" className="project-link">Simon Said 🔗</a>,
-            <a href="/other-projects/tic-tac-toe/index.html" className="project-link">Tic Tac Toe 🔗</a>
+            Projects: <a href="/other-projects/random-quote-machine/random-quote-machine" className="project-link">Random Quote Machine 🔗</a>, <a href="/other-projects/pomodoro/pomodoro" className="project-link">Pomodoro Timer 🔗</a>, <a href="/other-projects/simon-game/simon-game" className="project-link">Simon Said 🔗</a>,
+            <a href="/other-projects/tic-tac-toe/tic-tac-toe" className="project-link">Tic Tac Toe 🔗</a>
           </p>
           <p>Technologies: JavaScript, HTML, CSS</p>
         </div>
