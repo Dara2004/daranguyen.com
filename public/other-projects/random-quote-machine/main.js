@@ -5,7 +5,7 @@ color = ["#7fffd4", "#98f5ff", "#ff7256", "#ffd700", "#ff6347"];
 
 function callQuote() {
     $(document).ready(function () {
-        $.getJSON("http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function (data, status) { //"$.get" -> load data from the server using a HTTP GET request
+        $.getJSON("https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function (data, status) { //"$.get" -> load data from the server using a HTTP GET request
             //            alert("Load was performed.");
             randomColor = Math.floor(Math.random() * color.length);
             //            post = data[0]; //data will be put into an arr. only get the 1st element
