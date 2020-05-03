@@ -10,7 +10,8 @@ h1 {
 }
 
 body {
-    background: url(images/northernlight.jpg) no-repeat center center;
+    background: url(images/img3.png) no-repeat center center;
+    background-size: cover;
 }
 
 h3 {
