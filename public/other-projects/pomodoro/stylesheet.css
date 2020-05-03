@@ -54,7 +54,7 @@ button {
 }
 
 #start,
-#stop {
+#stop, #reset {
     display: inline-block;
     text-align: center;
     margin-top: 5px;
@@ -74,4 +74,12 @@ button {
 #stop {
     margin-left: 20px;
     background-color: #ff4500;
+}
+
+#reset {
+   margin-left: 20px;
+   background-color: yellow;
+}
+#instruction {
+    text-align: center;
 }

@@ -24,21 +24,30 @@ for (var i = 0; i < plus.length; i++) {
 
 for (i = 0; i < minus.length; i++) {
     minus[i].addEventListener('click', function (data) {
-        if (session_count > 0 || break_count > 0) {
-            if (this == minus[0]) {
+        console.log(session_count);
+        if (this == minus[0]) {
+            if (session_count > 0) {
                 session_count -= 1;
                 time[0].textContent = session_count + ":00";
-            } else if (this == minus[1]) {
+            }
+        } else if (this == minus[1]) {
+            if (break_count > 0) {
                 break_count -= 1;
                 time[1].textContent = break_count + ":00";
             }
-        }
 
+        }
     })
 }
 
 //count down clock
 // Set the date we're counting down to
+
+reset.addEventListener('click', function () {
+    active = false;
+    session_count = 0;
+    clearInterval(x);
+});
 
 var distance;
 start.addEventListener('click', function () {

@@ -11,10 +11,14 @@
 </head>
 
 <body>
-    <audio id="do"><source src="do.wav" type="audio/mpeg"></audio>
-    <audio id="re"><source src="re.wav" type="audio/mpeg"></audio>
-    <audio id="mi"><source src="mi.wav" type="audio/mpeg"></audio>
-    <audio id="fa"><source src="fa.wav" type="audio/mpeg"></audio>
+    <audio id="do">
+        <source src="do.wav" type="audio/mpeg"></audio>
+    <audio id="re">
+        <source src="re.wav" type="audio/mpeg"></audio>
+    <audio id="mi">
+        <source src="mi.wav" type="audio/mpeg"></audio>
+    <audio id="fa">
+        <source src="fa.wav" type="audio/mpeg"></audio>
 
     <div class="wheel">
         <div class="btn top green" id="green" onclick="playAudio(doo)"></div>
@@ -34,7 +38,12 @@
             </div>
             <h2>Simon</h2>
         </div>
+
+
     </div>
+    <p id="instruction">Click on the "Start" button and copy the button pressed. Press "Start" again to start the next
+        round.<br></br>Using
+        "Strict" mode means the game will restart when you hit the wrong button.</p>
     <script type="text/javascript" src="app.js"></script>
 </body>
 
