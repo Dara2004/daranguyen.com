@@ -142,7 +142,7 @@ export default function Projects(props) {
           }}
         >
           <p>
-            Mini apps: <a href="/other-projects/random-quote-machine/random-quote-machine" className="project-link">Random Quote Generator 🔗</a>, <a href="/other-projects/pomodoro/pomodoro" className="project-link">Pomodoro Timer 🔗</a>, <a href="/other-projects/simon-game/simon-game" className="project-link">Simon Said 🔗</a>,
+            Mini apps: <a href="/other-projects/random-quote-machine/random-quote-machine" className="project-link">Random Quote Generator 🔗</a>, <a href="/other-projects/simon-game/simon-game" className="project-link">Simon Said 🔗</a>,
             <a href="/other-projects/tic-tac-toe/tic-tac-toe" className="project-link">Tic Tac Toe 🔗</a>
           </p>
           <p>Technologies: JavaScript, HTML, CSS</p>
