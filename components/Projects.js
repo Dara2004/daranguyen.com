@@ -1,6 +1,5 @@
-const img1 = "/images/projects/accounting-app-1";
-const img2 = "/images/img1";
-const img3 = "/images/img1";
+const Background = "./images/black-background.jpg";
+
 export default function Projects(props) {
   return (
     <>
@@ -42,7 +41,7 @@ export default function Projects(props) {
             Technologies: React, Node.js, PostgreSQL, GraphQL, NextJS,
             TypeScript
           </p>
-          <span><a href="https://github.com/Dara2004/AccountingApp"><img src="/images/github-btn.png" style={{ width: "2em" }} /></a></span>
+          <span><a href="https://github.com/Dara2004/accounting_app"><img src="/images/github-btn.png" style={{ width: "2em" }} /></a></span>
         </div>
       </div>
 
@@ -124,10 +123,10 @@ export default function Projects(props) {
         <div className="caption">
           <span
             className="border"
+            id="text-4"
             style={{
-              backgroundColor: "#BFA884",
               fontSize: "25px",
-              color: "#f7f7f7",
+              color: "white",
             }}
           >
             Mini apps
@@ -179,11 +178,12 @@ export default function Projects(props) {
 
 .bgimg-4 {
   background-image: url("/images/projects/small-projects.svg");
+  filter: brightness(0.30);
   min-height: 500px;
 }
 
 .caption {
-  position: absolute;
+          position: absolute;
   left: 0;
   top: 50%;
   width: 100%;
@@ -192,28 +192,30 @@ export default function Projects(props) {
 }
 
 .caption span.border {
-  background-color: #111;
+          background - color: #111;
   color: #fff;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
 }
-
 h3 {
-  letter-spacing: 5px;
+          letter - spacing: 5px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
 }
 
+#text-4 {
+  color: white;
+}
 .project-link {
-  text-decoration: none;
+          text - decoration: none;
   color: white;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-    background-attachment: scroll;
+  .bgimg - 1, .bgimg - 2, .bgimg - 3, .bgimg - 4 {
+          background - attachment: scroll;
   }
 }
             `}
