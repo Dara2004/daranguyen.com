@@ -1,5 +1,3 @@
-const Background = "./images/black-background.jpg";
-
 export default function Projects(props) {
   return (
     <>
@@ -125,8 +123,9 @@ export default function Projects(props) {
             className="border"
             id="text-4"
             style={{
+              backgroundColor: "#BFA884",
               fontSize: "25px",
-              color: "white",
+              color: "#f7f7f7",
             }}
           >
             Mini apps
@@ -178,7 +177,6 @@ export default function Projects(props) {
 
 .bgimg-4 {
   background-image: url("/images/projects/small-projects.svg");
-  filter: brightness(0.30);
   min-height: 500px;
 }
 
