@@ -207,8 +207,8 @@ h3 {
   color: white;
 }
 .project-link {
-          text - decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
