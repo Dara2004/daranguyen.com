@@ -1,6 +1,47 @@
 export default function Projects(props) {
   return (
     <>
+      <div className="bgimg-5">
+        <div className="caption">
+          <span
+            className="border"
+            style={{
+              backgroundColor: "#BFA884",
+              fontSize: "25px",
+              color: "#f7f7f7",
+            }}
+          >
+            Goi (Flashcard Maker)
+          </span>
+        </div>
+      </div>
+
+      <div
+        style={{
+          position: "relative",
+        }}
+      >
+        <div
+          style={{
+            color: "#ddd",
+            backgroundColor: "#282E34",
+            textAlign: "center",
+            padding: "50px 80px",
+            textAlign: "justify",
+          }}
+        >
+          <p>
+            A flashcard maker app which generates the UI simultaneously as users type in a
+            code editor using DSL processing methods.
+          </p>
+          <p>
+            Technologies: React, Node.js, TypeScript
+            TypeScript
+          </p>
+          <span><a href="https://github.com/Dara2004/Goi"><img src="/images/github-btn.png" style={{ width: "2em" }} /></a></span>
+        </div>
+      </div>
+
       <div className="bgimg-1">
         <div className="caption">
           <span
@@ -153,7 +194,7 @@ export default function Projects(props) {
 
       <style>
         {`
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
   opacity: 0.6;
   background-attachment: fixed;
@@ -177,6 +218,11 @@ export default function Projects(props) {
 
 .bgimg-4 {
   background-image: url("/images/projects/small-projects.svg");
+  min-height: 500px;
+}
+
+.bgimg-5 {
+  background-image: url("/images/projects/goi2.png");
   min-height: 500px;
 }
 
@@ -212,7 +258,7 @@ h3 {
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg - 1, .bgimg - 2, .bgimg - 3, .bgimg - 4 {
+  .bgimg - 1, .bgimg - 2, .bgimg - 3, .bgimg - 4, .bgimg - 5 {
           background - attachment: scroll;
   }
 }
