@@ -11,7 +11,7 @@ export default function Projects(props) {
               color: "#f7f7f7",
             }}
           >
-            Goi (Flashcard Maker)
+            Goi
           </span>
         </div>
       </div>
@@ -94,7 +94,7 @@ export default function Projects(props) {
               color: "#f7f7f7",
             }}
           >
-            UBC Campus Explorer
+            Campus Explorer
           </span>
         </div>
       </div>
