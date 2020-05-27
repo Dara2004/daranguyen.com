@@ -31,14 +31,19 @@ export default function Projects(props) {
           }}
         >
           <p>
-            A flashcard maker app which generates the UI simultaneously as users type in a
-            code editor using DSL processing methods.
+            A flashcard maker app which generates the UI simultaneously as users
+            type in a code editor using DSL processing methods.
           </p>
-          <p>
-            Technologies: React, Node.js, TypeScript
-            TypeScript
-          </p>
-          <span><a href="https://github.com/Dara2004/Goi"><img src="/images/github-btn.png" style={{ width: "2em" }} /></a></span>
+          <p>Technologies: React, TypeScript</p>
+          <span>
+            <a href="https://github.com/Dara2004/Goi">
+              <img src="/images/github-btn.png" style={{ width: "2em" }} />
+            </a>
+          </span>
+          <span>&nbsp; &nbsp;</span>
+          <a href="/other-projects/goi/goi" className="project-link">
+            Live Site🔗
+          </a>
         </div>
       </div>
 
@@ -80,7 +85,11 @@ export default function Projects(props) {
             Technologies: React, Node.js, PostgreSQL, GraphQL, NextJS,
             TypeScript
           </p>
-          <span><a href="https://github.com/Dara2004/accounting_app"><img src="/images/github-btn.png" style={{ width: "2em" }} /></a></span>
+          <span>
+            <a href="https://github.com/Dara2004/accounting_app">
+              <img src="/images/github-btn.png" style={{ width: "2em" }} />
+            </a>
+          </span>
         </div>
       </div>
 
@@ -118,9 +127,17 @@ export default function Projects(props) {
             perform queries on UBC’s course and room databases.
           </p>
           <p>Technologies: Node.js, TypeScript</p>
-          <span><a href="https://github.com/Dara2004/Campus-Explorer"><img src="/images/github-btn.png" style={{ width: "2em" }} /></a></span>
+          <span>
+            <a href="https://github.com/Dara2004/Campus-Explorer">
+              <img src="/images/github-btn.png" style={{ width: "2em" }} />
+            </a>
+          </span>
           <span>&nbsp; &nbsp;</span>
-          <span><a href="http://ec2-13-229-215-75.ap-southeast-1.compute.amazonaws.com:4321/"><img src="/images/link.png" style={{ width: "2.1em" }} /></a></span>
+          <span>
+            <a href="http://ec2-13-229-215-75.ap-southeast-1.compute.amazonaws.com:4321/">
+              <img src="/images/link.png" style={{ width: "2.1em" }} />
+            </a>
+          </span>
         </div>
       </div>
 
@@ -185,8 +202,28 @@ export default function Projects(props) {
           }}
         >
           <p>
-            Mini apps: <a href="/other-projects/random-quote-machine/random-quote-machine" className="project-link">Random Quote Generator 🔗</a>, <a href="/other-projects/simon-game/simon-game" className="project-link">Simon Said 🔗</a>,
-            <a href="/other-projects/tic-tac-toe/tic-tac-toe" className="project-link"> Tic Tac Toe 🔗</a>
+            Mini apps:{" "}
+            <a
+              href="/other-projects/random-quote-machine/random-quote-machine"
+              className="project-link"
+            >
+              Random Quote Generator 🔗
+            </a>
+            ,{" "}
+            <a
+              href="/other-projects/simon-game/simon-game"
+              className="project-link"
+            >
+              Simon Said 🔗
+            </a>
+            ,
+            <a
+              href="/other-projects/tic-tac-toe/tic-tac-toe"
+              className="project-link"
+            >
+              {" "}
+              Tic Tac Toe 🔗
+            </a>
           </p>
           <p>Technologies: JavaScript, HTML, CSS</p>
         </div>
