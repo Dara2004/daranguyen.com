@@ -41,9 +41,11 @@ export default function Projects(props) {
             </a>
           </span>
           <span>&nbsp; &nbsp;</span>
-          <a href="/other-projects/goi/goi" className="project-link">
-            Live Site🔗
-          </a>
+          <span>
+            <a href="/other-projects/goi/goi">
+              <img src="/images/link.png" style={{ width: "2.1em" }} />
+            </a>
+          </span>
         </div>
       </div>
 
