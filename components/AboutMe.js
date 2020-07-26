@@ -14,7 +14,7 @@ export default function AboutMe() {
           <img src="/images/me.svg" className="profile-pic"></img>
         </div>
         <div className="my-resume">
-          <a href="/Nguyen_Dara_resume.pdf" className="view-resume-btn">
+          <a href="/DaraNguyen-resume.pdf" className="view-resume-btn">
             <img width="230px" src="/images/view-resume-btn.svg" />
           </a>
         </div>
