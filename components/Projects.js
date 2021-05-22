@@ -68,7 +68,7 @@ export default function Projects(props) {
       <DescriptionContainer>
         <Description
           description={
-            "A new corporate directory created for Associated Engineering which focuses on distilling the same data as the existing system of AE but facilitated by a modern, simple UI and a more efficient search flow."
+            "A new corporate directory created for Associated Engineering which focuses on distilling the same data as the existing system of AE but facilitated by a modern, simple UI and an efficient search flow."
           }
           tech={"React, C#, ASP.NET, AWS Lambda, Entity Framework"}
           github={"https://github.com/Dara2004/EmployeeDirectory"}

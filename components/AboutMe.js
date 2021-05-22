@@ -63,7 +63,6 @@ export default function AboutMe() {
           grid-area: profile-pic-holder;
           text-align: center;
         }
-        
 
         .my-resume {
           grid-area: my-resume;
@@ -71,9 +70,9 @@ export default function AboutMe() {
         }
 
         .profile-pic {
-            width: 70%;
-            height: 70%;
-          }
+          width: 70%;
+          height: 70%;
+        }
         @media (max-width: 699px) {
           .profile-pic {
             width: 80%;
